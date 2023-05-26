@@ -1,0 +1,93 @@
+
+:root{
+ --main-bg-color:rgb(10, 10, 10);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background: var(--main-bg-color)
+    
+}
+nav{
+    display: flex;
+}
+.logo{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+ nav ul li a:hover{
+    font-weight: bolder;
+}
+ul{height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search{
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+  
+}
+input{
+    font-size: 1.8;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+.slider{ 
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+.con{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer{
+    height: 12vh;
+    background: var(--main-bg-color);
+}
+
